@@ -1,6 +1,6 @@
-package br.com.rotadacerveja;
+package br.com.rotadacerveja.scalefx;
 
-enum AspectRatio {
+public enum AspectRatio {
     A5_3(5.0 / 3.0);
 
     private final double aspectRatio;
@@ -9,7 +9,7 @@ enum AspectRatio {
         this.aspectRatio = aspectRatio;
     }
 
-    public double value() {
-        return aspectRatio;
+    double getValue() {
+      return aspectRatio;
     }
 }
